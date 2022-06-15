@@ -14,7 +14,7 @@ app.get('/', (solicitud, respuesta) => {
 let visitas = 0
 app.get('/visitas', (solicitud, respuesta) => {
     visitas++
-    respuesta.send(`La cantidad de visitas es ${visitas}`)
+    respuesta.send(`La cantidad de visitas es: ${visitas}`)
 })
 
 app.get('/fyh', (solicitud, respuesta) => {
