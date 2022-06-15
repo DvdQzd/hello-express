@@ -8,7 +8,7 @@ const server = app.listen(PORT, () => {
 server.on("error", error => console.log(`Error en servidor ${error}`))
 
 app.get('/', (solicitud, respuesta) => {
-    respuesta.send('<h1 style="color:blue">Bienvenidos al servidor express</h1>')
+    respuesta.send('<h1 style="color:green">Bienvenidos al servidor express</h1>')
 })
 
 let visitas = 0
